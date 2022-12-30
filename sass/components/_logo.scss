@@ -1,0 +1,22 @@
+.logo {
+    display: block;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-dark-color);
+  }
+  
+  .logo-header {
+    margin-right: 94px;
+  }
+  
+  .logo-footer {
+    color: var(--white-color);
+    margin-bottom: 28px;
+  }
+  
+  .logo > span {
+    color: var(--primary-decor-color);
+  }

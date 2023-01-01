@@ -9,7 +9,7 @@
     align-items: baseline;
   }
   
-  .address {
+  .footer-address {
     display: flex;
     flex-direction: column;
     font-style: normal;
@@ -19,16 +19,16 @@
     color: var(--white-color);
   }
   
-  .social-footer {
-    margin-left: 70px;
-  }
-  
-  .footer-contacts-link {
+  .footer-address__link {
     margin-top: 12px;
     color: var(--third-lite-color);
   }
+
+  .footer-social {
+    margin-left: 70px;
+  }
   
-  .social-footer-title {
+  .footer-social__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -38,23 +38,11 @@
     color: var(--white-color);
   }
   
-  .social-footer-list {
-    display: flex;
-  }
-  
-  .social-footer-link {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  
-  .social-footer-icon {
-    fill: var(--white-color);
-  }
-  
-  .join {
+  .subscribe-form {
     margin-left: auto;
   }
   
-  .join-title {
+  .subscribe-form__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -63,12 +51,12 @@
     color: var(--white-color);
   }
   
-  .join-thumb {
+  .subscribe-form-thumb {
     display: flex;
     margin-top: 20px;
   }
   
-  .join-input {
+  .subscribe-form__input {
     display: block;
     height: 50px;
     width: 358px;
@@ -80,14 +68,14 @@
     background: #2F303A;
   }
   
-  .join-btn {
+  .subscribe-form__btn {
     position: relative;
     padding-left: 28px;
     padding-right: 62px;
     text-align: left;
   }
   
-  .send-icon {
+  .subscribe-form__icon {
     position: absolute;
     width: 24px;
     height: 24px;

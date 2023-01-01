@@ -6,17 +6,19 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--primary-dark-color);
+
+  }
+
+  .logo__prefix {
+    color: var(--primary-decor-color);
   }
   
-  .logo-header {
+  .header__logo {
     margin-right: 94px;
   }
   
-  .logo-footer {
-    color: var(--white-color);
+  .footer__logo {
     margin-bottom: 28px;
+    color: var(--white-color);
   }
   
-  .logo > span {
-    color: var(--primary-decor-color);
-  }

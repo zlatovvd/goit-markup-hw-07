@@ -9,17 +9,17 @@
     margin-top: -30px;
   }
   
-  .about-list-item {
+  .about-list__item {
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-top: 30px;
   }
   
-  .about-wrapper {
+  .about-list__wrapper {
     position: relative;
   }
   
-  .about-title-wrapper {
+  .about-list__title-wrapper {
     position: absolute;
     bottom: 0;
     width: 100%;

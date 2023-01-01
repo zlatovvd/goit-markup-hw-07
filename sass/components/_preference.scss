@@ -1,15 +1,15 @@
-.prop-list {
+.preference-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
 }
 
-.prop-list-item {
+.preference-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
 }
 
-.prop-icon-wrap {
+.preference-list__icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,12 +19,12 @@
   margin-bottom: 30px;
 }
 
-.prop-icon {
+.preference-list__icon {
   height: 70px;
   width: 70px;
 }
 
-.prop-title {
+.preference-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -34,7 +34,7 @@
   color: var(--secondary-text-color);
 }
 
-.prop-description {
+.preference-list__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
